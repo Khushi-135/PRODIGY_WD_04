@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I'm [Your Name]</h1>
+            <p>Web Developer | Designer | Tech Enthusiast</p>
+            <button class="cta-button"><a href="#projects">View My Work</a></button>
+        </div>
+        <img src="profile.jpg" alt="Professional Photo" class="profile-photo">
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name], a passionate web developer with experience in creating interactive websites and applications. My journey began with learning HTML and CSS, and over time, I developed skills in JavaScript, React, and other web technologies. I enjoy transforming ideas into reality and solving problems through clean, efficient code.</p>
+        <p><strong>Education:</strong> B.Sc. in Computer Science</p>
+        <p><strong>Experience:</strong> Freelance Web Developer for 2 years, worked on various client projects, including e-commerce sites and personal blogs.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A fully responsive e-commerce website built with HTML, CSS, and JavaScript.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A weather forecasting app built using React and RESTful APIs to display live weather updates.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>A personal blog website with dynamic content using JavaScript and backend integration.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Interested in working together or just want to say hi? Feel free to reach out!</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
